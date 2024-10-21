@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	padding: 0;	
+}
+.left-container{
+	position: fixed;
+	width: 400px;
+	height: 100vh;
+	background-color: grey;
+	}
+
+
+.photo-contact{
+	position: absolute;
+	top: 100px;
+	text-align:center;
+	left: 40px;
+
+}
+.photo{
+	width: 60%;
+	border-radius: 50%;
+	}	
+.button{
+	width: 50%;
+	background-color: white;
+	border-radius: 15px;
+	margin-bottom: 12px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 10px;
+	}
+.button:hover{
+	background-color: black;
+	color: white;
+	transition: 1s;
+
+}	
+.right-container{
+	position: absolute;
+	left: 400px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.garing{
+	font-style: italic;
+	font-size: 1.3rem;
+
+}
+.top-bar{
+	padding-top: 50px;
+	padding-left: 100px;
+}
+.list-menu{
+	float: right;
+	padding-right: 100px;
+}
+.menu{
+	font-size: 1.3rem;
+	padding: 0 12px;
+}	
+#profile{
+	padding-top: 100px;
+	padding-left: 100px;
+}
+#about {
+	padding-left: 100px;
+	padding-top: 100px;
+	padding-right: 100px;
+}
+#experience {
+	padding-left: 100px;
+	padding-top: 150px;
+	padding-right: 100px;
+}
+#achivements{
+	padding-left: 100px;
+	padding-top: 150px;
+}
+#contact{
+	padding-left: 100px;
+	padding-top: 150px;
+}
+#footer{
+	padding-top: 200px;
+	text-align: center;
+}
+p , li {
+	line-height: 200%;
+}
